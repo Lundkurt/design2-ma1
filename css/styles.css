@@ -34,11 +34,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url(/images/textile-texture.jpg) rgba(134, 121, 126, 0.712) ;
+    background: url(/images/stonetexture.jpg) rgba(134, 121, 126, 0.712) ;
     background-size: cover;
     background-blend-mode: darken;
-
 }
+
+
 
 header div {
     width: 90%;
@@ -87,11 +88,27 @@ nav ul a:hover {
 
 .cart, .search {
     background-color: var(--beige);
+    color: var(--dark-tqs);
     border-radius: 50%;
     height: 60px;
     width: 60px;
     position: absolute;
     right: 10px;
+    display: none;
+    box-shadow: 3px 3px 8px rgba(49, 57, 59, 0.35);
+}
+.cart:hover, .search:hover {
+    box-shadow: 3px 3px 8px rgba(49, 57, 59, 0.55);
+}
+
+i {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 17px;
+    cursor: pointer;
+}
+.fa-search {
+    padding-left: 18px;
 }
 
 .search {
@@ -258,7 +275,22 @@ main {
 
 footer {
     height: 100px;
-    background-color: var(--pink);
+    background: url(/images/stonetexture.jpg) rgba(134, 121, 126, 0.712) ;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: var(--dark-tqs);
+}
+
+.f-logo {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-family: 'Raleway';
+    font-size: 1.8rem;
+}
+.rights {
+    font-size: 0.5rem;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -285,6 +317,9 @@ footer {
 
     .promo img {
         width: 400px;
+    }
+    .cart, .search {
+        display: block;
     }
 
 }
