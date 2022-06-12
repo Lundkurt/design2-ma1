@@ -14,6 +14,7 @@ body {
     background-color: rgba(145, 178, 186, 0.84);
     margin: 0;
     font-family: 'Cabin';
+    color: var(--dark-tqs);
 }
 
 .logo, a, h1, h2, h3, h4, .category-name {
@@ -101,14 +102,11 @@ nav ul a:hover {
     box-shadow: 3px 3px 8px rgba(49, 57, 59, 0.55);
 }
 
-i {
-    font-size: 1.5rem;
+.cart img, .search img {
+    height: 2rem;
     text-align: center;
-    padding: 17px;
+    padding: 12px;
     cursor: pointer;
-}
-.fa-search {
-    padding-left: 18px;
 }
 
 .search {
@@ -293,6 +291,89 @@ footer {
     text-align: center;
 }
 
+
+/* products */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 10px;
+
+}
+
+.product-card {
+    width: 300px;
+    height: 600px;
+    background-color: var(--beige);
+    box-shadow: 3px 3px 8px rgba(49, 57, 59, 0.35);
+}
+
+.product-card:hover {
+    box-shadow: 3px 3px 8px rgba(49, 57, 59, 0.55);
+
+}
+
+
+.product-card img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-details {
+    background-color: var(--beige);
+    padding: 15px;
+
+}
+
+.price {
+    font-size: 1.4rem;
+    font-family: 'Raleway';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price img {
+    height: 2rem;
+    width: auto;
+    cursor: pointer;
+}
+
+.products-intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: var(--tqs);
+    width: 90%;
+    box-shadow: 3px 3px 8px rgba(49, 57, 59, 0.35); 
+}
+
+.products-intro h1 {
+    color: var(--dark-tqs);
+    font-weight: 500;
+}
+
+.products-intro div {
+    padding: 15px;
+    
+}
+
+.products-intro img {
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+.filter {
+    position: relative;
+    -webkit-filter: brightness(69%) sepia(31%);
+    filter: brightness(89%) sepia(31%);
+    width: 100%;
+    margin: 0;
+  }
+
 @media (min-width: 768px) {
 
     .categories {
@@ -323,6 +404,21 @@ footer {
     }
 
 }
+@media (min-width: 1024px) {
+    .products-intro {
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        max-width: 1270px;
+        background-color: var(--tqs);
+        
+    }
+    
+    .products-intro img {
+        height: 100%;
+    
+    }
+}
 @media (min-width: 1200px) {
 
     .categories {
@@ -337,5 +433,6 @@ footer {
     .promo img {
         width: 540px;
     }
+    
 
 }

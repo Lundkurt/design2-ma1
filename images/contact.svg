@@ -1,0 +1,16 @@
+<svg id="Component_4_1" data-name="Component 4 – 1" xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24">
+  <g id="Group_1" data-name="Group 1">
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(0)" fill="none" stroke="#31393b" stroke-width="2">
+      <rect width="36" height="24" stroke="none"/>
+      <rect x="1" y="1" width="34" height="22" fill="none"/>
+    </g>
+    <g id="Subtraction_2" data-name="Subtraction 2" transform="translate(176 120)" fill="none">
+      <path d="M-140-96h-36l12.706-12.706L-158-104l5.294-4.706L-140-96Z" stroke="none"/>
+      <path d="M -144.8288269042969 -98.00030517578125 L -152.7870025634766 -105.9584732055664 L -158.0003967285156 -101.3245468139648 L -163.2137908935547 -105.9584808349609 L -171.1719665527344 -98.00030517578125 L -144.8288269042969 -98.00030517578125 M -140.0004119873047 -96.00030517578125 L -176.0003967285156 -96.00030517578125 L -163.2945709228516 -108.7061309814453 L -158.0003967285156 -104.0004043579102 L -152.7062225341797 -108.7061157226562 L -140.0004119873047 -96.00030517578125 Z" stroke="none" fill="#31393b"/>
+    </g>
+  </g>
+  <g id="Polygon_4" data-name="Polygon 4" transform="translate(36 19) rotate(180)" fill="none">
+    <path d="M18,0,36,19H0Z" stroke="none"/>
+    <path d="M 18 2.908061981201172 L 4.649742126464844 17 L 31.35025787353516 17 L 18 2.908061981201172 M 18 0 L 36 19 L 0 19 L 18 0 Z" stroke="none" fill="#31393b"/>
+  </g>
+</svg>
